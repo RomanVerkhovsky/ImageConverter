@@ -1,5 +1,5 @@
-import gui.gui_console_simple
+from gui.gui_console_simple import GUI
 
 if __name__ == "__main__":
-    app = gui.gui_console_simple.GUI()
+    app = GUI()
     app.run()
